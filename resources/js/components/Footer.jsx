@@ -13,7 +13,7 @@ const Footer = () => {
               <FaShip className="text-[#00B4D8] text-2xl" />
               <span className="font-bold text-xl">SODIKAP</span>
             </Link>
-            <p className="text-[#6C757D] text-sm mt-2">
+            <p className="text-[#dbdbdb] text-sm mt-2">
               Sistem informasi pemeliharaan kapal berbasis web yang dirancang untuk meningkatkan efisiensi dan efektivitas dalam proses pemeliharaan kapal.
             </p>
           </div>
@@ -23,22 +23,22 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4 text-[#00B4D8]">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-[#6C757D] hover:text-white transition-colors">
+                <Link to="/" className="text-[#dbdbdb] hover:text-white transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-[#6C757D] hover:text-white transition-colors">
+                <Link to="/about" className="text-[#dbdbdb] hover:text-white transition-colors">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/features" className="text-[#6C757D] hover:text-white transition-colors">
+                <Link to="/features" className="text-[#dbdbdb] hover:text-white transition-colors">
                   Features
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-[#6C757D] hover:text-white transition-colors">
+                <Link to="/contact" className="text-[#dbdbdb] hover:text-white transition-colors">
                   Contact
                 </Link>
               </li>
@@ -49,10 +49,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4 text-[#00B4D8]">Features</h3>
             <ul className="space-y-2">
-              <li className="text-[#6C757D]">Manajemen Pemeliharaan</li>
-              <li className="text-[#6C757D]">Pencatatan & Pelacakan</li>
-              <li className="text-[#6C757D]">Pemantauan Kondisi Kapal</li>
-              <li className="text-[#6C757D]">Pelaporan & Analisis</li>
+              <li className="text-[#dbdbdb]">Manajemen Pemeliharaan</li>
+              <li className="text-[#dbdbdb]">Pencatatan & Pelacakan</li>
+              <li className="text-[#dbdbdb]">Pemantauan Kondisi Kapal</li>
+              <li className="text-[#dbdbdb]">Pelaporan & Analisis</li>
             </ul>
           </div>
 
@@ -62,15 +62,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2">
                 <FaMapMarkerAlt className="text-[#00B4D8]" />
-                <span className="text-[#6C757D]">Jl. Ahmad Yani, Batam 29461</span>
+                <span className="text-[#dbdbdb]">Jl. Ahmad Yani, Batam 29461</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FaPhone className="text-[#00B4D8]" />
-                <span className="text-[#6C757D]">+62 778 469858</span>
+                <span className="text-[#dbdbdb]">+62 778 469858</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-[#00B4D8]" />
-                <span className="text-[#6C757D]">info@sodikap.com</span>
+                <span className="text-[#dbdbdb]">info@sodikap.com</span>
               </li>
             </ul>
 
@@ -93,7 +93,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-[#4D5E70] mt-8 pt-6 text-center text-[#6C757D]">
+        <div className="border-t border-[#4D5E70] mt-8 pt-6 text-center text-[#dbdbdb]">
           <p>© {new Date().getFullYear()} SODIKAP. All rights reserved.</p>
           <p className="text-xs mt-1">
             Program Studi Teknologi Rekayasa Perangkat Lunak, Politeknik Negeri Batam

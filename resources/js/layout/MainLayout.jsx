@@ -2,17 +2,17 @@ import React from 'react';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 
-export default function MainLayout({ children }) {
+export default function MainLayout({ children, showNavbarFooter = true }) {
   return (
     <div className="flex flex-col min-h-screen">
       <header>
-        <Navbar />
+        {showNavbarFooter && <Navbar />}
       </header>
-      <main className="flex-grow container mx-auto px-4 py-6">
+      <main className="flex-grow w-full">
         {children}
       </main>
       <footer>
-        <Footer />
+        {showNavbarFooter && <Footer />}
       </footer>
     </div>
   );
